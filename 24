@@ -1,0 +1,7 @@
+n = int(input("Quantas notas você quer digitar?"))
+soma = 0
+for i in range(n):
+    nota = float(input(f"Digite a {i + 1} nota:"))
+    soma += nota
+media = soma / n
+print("Média das notas:", media)

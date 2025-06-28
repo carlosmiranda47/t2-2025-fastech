@@ -1,0 +1,7 @@
+#16.
+a =0
+b =1
+print("sequência de fibonacci até passar de 500:")
+while a <= 500:
+    print(a, end=" ")
+    a, b = b, a + b

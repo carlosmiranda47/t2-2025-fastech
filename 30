@@ -1,0 +1,6 @@
+#30.
+preço_pão = float(input("preço do pão: R$"))
+print("\npanificadora pão de ontem tabela de preços")
+for i in range(1, 51):
+    total = i * preço_pão
+    print(f"{i} - R$ {total:.2f}")

@@ -1,0 +1,8 @@
+#15.
+n = int(input("Quantos termos da sequência de fibonacci você que ver:"))
+a = 1
+b = 1
+print("Sequência de fibonacci:")
+for i in range(n):
+    print(a, end ="")
+    a, b = b, b + a
